@@ -1,0 +1,22 @@
+.loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: 100svh;
+}
+
+.loginform > button {
+    padding: 12px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+}
+
+.loginform > button:hover {
+    scale: 1.1;
+    background-color: rgb(237, 221, 200);
+}
